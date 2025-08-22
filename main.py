@@ -78,7 +78,6 @@ class LSLC():
 
             resultado.insertar(sum_co, exp)
             exp -= 1
-        resultado.insertar(actual1.co + actual2.co, actual1.exp)
         return resultado
 
 
@@ -94,7 +93,7 @@ p2.insertar(12, 3)
 p2.insertar(78, 0)
 p2.imprimir()
 # %%
-p3 = p1.sumarVariosTerminos(p2)
+p3 = p1.sumarVariosTerminosDistintoTamano(p2)
 # %%
 p3.imprimir()
 # %%
